@@ -17,3 +17,20 @@
 # Using slicing (array[start : stop : step])
 # rev = arr[::-1]
 # print(rev)
+# 
+# Now, finally we'll reverse the array using Recursion(Using Two Pointers)
+
+def arrRev(arr,left,right):
+    
+    if left >= right:
+        return
+    
+    arr[left],arr[right] = arr[right],arr[left]
+    arrRev(arr,left+1,right-1)
+    return arr
+
+arr=[1,2,3,4,6]
+print(arrRev(arr,0,len(arr)-1))
+
+
+
