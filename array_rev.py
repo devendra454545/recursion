@@ -7,5 +7,13 @@
 #         arr[i] = arr[len(arr)-i-1]
 #         arr[len(arr)-i-1] = temp
 #     return arr
-# arr=[1,2,3,4,5,6]
+arr=[1,2,3,4,5,6]
 # print(rev(arr))
+# 
+# Using reverse function
+# arr.reverse()
+# print(arr)
+# 
+# Using slicing (array[start : stop : step])
+rev = arr[::-1]
+print(rev)
