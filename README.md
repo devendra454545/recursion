@@ -108,6 +108,29 @@ Example:
 Input:  [1, 2, 3, 4, 5]
 Output: [5, 4, 3, 2, 1]
 
+## 8️⃣ palindrome_number.py
+
+Description:
+Checks whether a number is a palindrome using recursion (without converting to string).
+
+Concept Used:
+
+Digit extraction using % and //
+
+Recursive number reversal
+
+Base case (n == 0)
+
+Comparison of original and reversed number
+
+Example:
+
+Input: 121
+Output: True
+
+Input: 123
+Output: False
+
 ## 🧠 Concepts Covered
 
 Base Case
@@ -121,6 +144,8 @@ Function call stack behavior
 Backtracking in recursion
 
 Two-pointer technique in recursion
+
+To check if number is Palindrome or not
 
 ## 🚀 How to Run
 
