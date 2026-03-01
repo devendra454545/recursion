@@ -131,6 +131,27 @@ Output: True
 Input: 123
 Output: False
 
+## 9️⃣ fibonacci_recursion.py
+
+Description:
+Generates the nth Fibonacci number using recursion.
+
+Concept Used:
+
+Recursive function calls
+
+Base case (n == 0 and n == 1)
+
+Recursive relation → F(n) = F(n-1) + F(n-2)
+
+Example:
+
+Input: 6
+Output: 8
+
+Fibonacci Series:
+0 1 1 2 3 5 8
+
 ## 🧠 Concepts Covered
 
 Base Case
