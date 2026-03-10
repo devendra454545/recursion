@@ -1,14 +1,12 @@
 def fibonacci(n):
-    # Base Cases
+    #base cases
     if n == 0:
         return 0
     if n == 1:
         return 1
-    
-    # Recursive Case
-    return fibonacci(n - 1) + fibonacci(n - 2)
+    return fibonacci(n-1) + fibonacci(n-2)
 
+terms = 5
 
-# Test
-num = 6
-print(fibonacci(num))
+for i in range(terms):
+    print(fibonacci(i), end=" ")
