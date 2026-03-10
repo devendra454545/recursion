@@ -168,6 +168,8 @@ Two-pointer technique in recursion
 
 To check if number is Palindrome or not
 
+To print the Fibonacci series
+
 ## 🚀 How to Run
 
 Make sure Python is installed.
