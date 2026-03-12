@@ -170,6 +170,8 @@ To check if number is Palindrome or not
 
 To print the Fibonacci series
 
+To check if a String is Palindrome or not
+
 ## 🚀 How to Run
 
 Make sure Python is installed.
